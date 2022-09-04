@@ -2,7 +2,8 @@ name: Deploy to AWS
 env:
   AWS_REGION_NAME: "us-west-2"
   PACKAGE_NAME: "MLOps_${{github.sha}}.zip"
-  S3_BUCKET_NAME: "mlopswgithub"
+  S3_BUCKET_NAME: "mlopswithgithubrag"
+  
 on:
   push:
     branches: [ master ]
